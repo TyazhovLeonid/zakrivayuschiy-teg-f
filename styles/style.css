@@ -181,6 +181,10 @@ header {
   outline-offset: -4px;
 }
 
+.like-icon:hover {
+  cursor: pointer;
+}
+
 .heart {
   transform-origin: center;
 }
@@ -262,6 +266,10 @@ header {
   inline-size: 130px;
 }
 
+.card__like-button:hover {
+  cursor: pointer;
+}
+
 .card__like-button::before {
   content: "";
   position: absolute;
@@ -305,6 +313,10 @@ header {
   background-color: var(--bg-color, #fff);
   transition: box-shadow 0.3s ease;
   block-size: 55px;
+}
+
+.save-button:hover {
+  cursor: pointer;
 }
 
 .save-button svg {
@@ -389,6 +401,10 @@ body:has(.dialog__put-disk[open]) {
   text-align: center;
   background-color: var(--bg-color, #fff);
   transition: box-shadow 0.3s ease;
+}
+
+.dialog__accept-button:hover {
+  cursor: pointer;
 }
 
 .dialog__accept-button::before {
