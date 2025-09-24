@@ -252,13 +252,14 @@ header {
 .card__like-button {
   position: relative;
   border: 2px solid var(--main-color, #000);
-  padding: 7px 37px 9px;
+  padding: 7px 17px;
+  text-align: center;
   overflow: hidden;
   color: var(--main-color, #000);
   background-color: var(--bg-color, #fff);
   transition: box-shadow 0.3s ease;
-  max-block-size: 38px;
-  max-inline-size: 130px;
+  block-size: 38px;
+  inline-size: 130px;
 }
 
 .card__like-button::before {
@@ -284,9 +285,10 @@ header {
 
 .button__text {
   color: var(--bg-color, #fff);
+  display: block;
   font-family: var(--decoration-font), sans-serif;
   font-size: 14px;
-  line-height: 1em;
+  line-height: 0.9em;
   mix-blend-mode: difference;
 }
 
@@ -308,6 +310,8 @@ header {
 .save-button svg {
   stroke: var(--bg-color, #fff);
   mix-blend-mode: difference;
+  width: 21px;
+  height: 21px;
 }
 
 .save-button::before {
@@ -329,11 +333,6 @@ header {
 .save-button:focus {
   box-shadow: 2px 2px 0 0 var(--main-color, #000);
   outline: none;
-}
-
-.save-button svg {
-  width: 21px;
-  height: 21px;
 }
 
 .dialog__put-disk {
