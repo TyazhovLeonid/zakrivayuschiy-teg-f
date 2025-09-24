@@ -1,14 +1,15 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
 :root {
-    --main-font: 'Inter'; 
-    --decoration-font: 'PressStart2P';
-    --card-title-weight: 715; 
-    --card-text-weight: 410; 
-    --content-width: clamp(375px,calc(50vw - 20px),700px);
-    --bg-color: #fff;
-    --main-color: #000; 
-    --header-padding:clamp(120.3px,10vw,130px) clamp(16px, calc(50% - (var(--content-width) / 2)), 122.5px);
-    --text-stroke-color: #fff;
-    --contour-color: #000;
-    --animation-fill-color:#FF0000;
+  --main-font: "Inter";
+  --decoration-font: "PressStart2P";
+  --card-title-weight: 715;
+  --card-text-weight: 410;
+  --content-width: clamp(375px, calc(50vw - 20px), 700px);
+  --bg-color: #fff;
+  --main-color: #000;
+  --header-padding: clamp(120.3px, 10vw, 130px)
+    clamp(16px, calc(50% - (var(--content-width) / 2)), 122.5px);
+  --text-stroke-color: #fff;
+  --contour-color: #000;
+  --animation-fill-color: #ff0000;
 }

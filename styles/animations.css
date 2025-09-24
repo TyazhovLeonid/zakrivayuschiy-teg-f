@@ -10,19 +10,19 @@
 
 */
 @keyframes heart {
-    from {
-        transform: scale(1);
-    }
-    to{
-        transform: scale(1.25);
-    }
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.25);
+  }
 }
 
 @keyframes sparks {
-    from {
-        opacity: 1;
-    }
-    to {
-        opacity: 0;
-    }
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
 }
