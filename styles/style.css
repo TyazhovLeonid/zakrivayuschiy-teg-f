@@ -43,9 +43,9 @@ header {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  min-inline-size: 320px;
   text-align: center;
   text-transform: uppercase;
+  min-inline-size: 320px;
 }
 
 .logo {
@@ -86,10 +86,10 @@ header {
 
 .content__card-img {
   display: block;
-  block-size: 100%;
-  inline-size: 100%;
   object-fit: cover;
   object-position: center;
+  block-size: 100%;
+  inline-size: 100%;
   aspect-ratio: 1 / 1;
 }
 
@@ -257,11 +257,11 @@ header {
 }
 
 .button {
-  position: relative; 
+  position: relative;
   border: 2px solid var(--main-color, #000);
   overflow: hidden;
-  color: var(--main-color, #000); 
-  background-color: var(--bg-color, #fff); 
+  color: var(--main-color, #000);
+  background-color: var(--bg-color, #fff);
   transition: box-shadow 0.3s ease;
 }
 
@@ -298,8 +298,8 @@ header {
 }
 
 .button__text {
-  color: var(--bg-color, #fff);
   display: block;
+  color: var(--bg-color, #fff);
   font-family: var(--decoration-font), fantasy;
   font-size: 14px;
   line-height: 0.9em;
@@ -316,11 +316,11 @@ header {
 }
 
 .save-button svg {
-  stroke: var(--bg-color, #fff);
-  mix-blend-mode: difference;
   width: 21px;
   height: 21px;
   color: #000;
+  stroke: var(--bg-color, #fff);
+  mix-blend-mode: difference;
 }
 
 .dialog__put-disk {
@@ -363,8 +363,8 @@ body:has(.dialog__put-disk[open]) {
   font-family: var(--decoration-font), fantasy;
   font-size: 14px;
   line-height: 1.5em;
-  min-inline-size: 200px;
   text-transform: uppercase;
+  min-inline-size: 200px;
 }
 
 .dialog__accept-button {
@@ -395,4 +395,3 @@ body:has(.dialog__put-disk[open]) {
     padding: 30px 40px;
   }
 }
-
